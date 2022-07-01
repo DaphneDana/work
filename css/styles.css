@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: aqua;
+}
+
+.container{
+    width: 80%;
+    margin: 32px auto;
+    padding: 16px;
+}
+
+.row > div{
+    width: 33%;
+    height: 150px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+
+
+}
+
+.row1 .bio{
+    float: left;
+    background-color: rgb(230, 230, 230);
+
+}
+
+.row1 .photo{
+    float: right;
+    background-color: blue;
+}
+
+.row2 .education{
+    clear: right;
+    clear: left;
+    margin: auto;
+    background-color: grey;
+}
+
+.row3 .hobbies{
+    float: left;
+    background-color: rgb(88, 88, 133);
+
+}
+
+.row3 .contact{
+    float: right;
+    background-color: rgb(151, 71, 42);
+}
+
+.row1 .bio:hover{
+background-color: rgb(175, 175, 175);
+}
+
+.row1 .photo:hover{
+    background-color: rgb(52, 52, 100);
+}
+
+.row2 .education:hover{
+    background-color: rgb(121, 65, 65);
+}
+
+    .row3 .hobbies:hover{
+         background-color: rgb(95, 95, 134);
+        }
+   
+        
+        .row3 .contact:hover{
+            background-color: rgb(141, 40, 3);
+        }
+h1{
+    color: aqua;
+}
+
+body{
+    background-color: blueviolet;
+    
+}
+table,th,td{
+    border: 1px solid black;
+}
+
